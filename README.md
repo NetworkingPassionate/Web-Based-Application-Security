@@ -25,3 +25,10 @@ git clone https://github.com/yourusername/sql-injection-demo.git
 cd sql-injection-demo
 pip install -r requirements.txt
 python app.py
+
+
+📁 Files Included
+demo_notes.md: Step-by-step walkthrough
+lab_topology.png: Network diagram
+wireshark_capture.pcap: Sample packet dump (sanitized)
+README.md: This overview
