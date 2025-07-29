@@ -19,7 +19,6 @@ This project demonstrates the exploitation of common SQL injection patterns in a
 | Blind Injection via Delay    | `1 AND IF('a'='a', SLEEP(5), 0) --`             | Confirms vulnerability by response timing |
 | Stacked Queries              | `John'; DROP TABLE users; --`                   | Executes multiple statements, destructive |
 
-> **Note:** All injections were performed against intentionally vulnerable inputs in a test harness built for detection and documentation. This is not intended for use against live systems.
 
 
 <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/15fd3fd4-4b05-40ea-ac2b-a69a6eaf7d98" />
@@ -51,21 +50,12 @@ To defend against SQL injection:
 - Implement query whitelisting where possible
 - Log unusual input behaviors for audit
 
----
-
-## 📁 Files Included
-
-- `payloads.txt` – Test strings used in simulation
-- `demo_engine.py` – Injection detection engine
-- `vulnerable_queries.sql` – Sample SQL for lab reproduction
-- `README.md` – This write-up
-- `screenshots/` – Annotated visual logs from tests
 
 ---
 
 ## 📜 Ethical Disclaimer
 
-This demo is provided solely for **educational** and **professional training** purposes. All tests were executed in a controlled lab with no connection to live systems. The author condemns unauthorized testing, and encourages responsible disclosure and proper lab setup.
+All injections were performed against intentionally vulnerable inputs in a test built for detection and documentation. This is not intended for use against live systems.
 
 
 ---
