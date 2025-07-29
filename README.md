@@ -4,7 +4,7 @@
 
 ## 🧠 Objective
 
-This project demonstrates the exploitation of common SQL injection patterns in a controlled, educational lab environment. Each pattern is paired with its triggering payload, the corresponding vulnerable query, and a breakdown of detection and mitigation strategies. The goal is to raise awareness about insecure query handling and emphasize robust defensive techniques.
+This project demonstrates the exploitation of common SQL injection patterns on a safe, free education platform (https://www.infyways.com/tools/sql-injection-tester/). Each pattern is paired with its triggering payload, the corresponding vulnerable query, and a breakdown of detection and mitigation strategies. The goal is to raise awareness about insecure query handling and encourage robust defensive techniques.
 
 ---
 
